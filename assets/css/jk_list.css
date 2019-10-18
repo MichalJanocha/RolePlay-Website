@@ -1,0 +1,56 @@
+.jk-anim-list{
+    position: relative;
+    min-height: 50vh;
+}
+.jk-active-group{
+    margin-top: 25px;
+    height: 10%;
+}
+.jk-active-group i{
+    font-size: 10px;
+    color: #343641;
+    transition: all 0.3s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.jk-active-cir{
+    color: #4dec13 !important;
+    transform: scale(1.05);
+}
+.fa-dot-circle:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.jk-list-item{
+    position: absolute;
+    min-width: 100%;
+    background-color: #2d2e32;
+    border-radius: 5px;
+    border: 1px solid #373941;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: all 0.4s;
+    left: 0;
+}
+.jk-list-item h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+.jk-list-item p{
+    font-size: 11px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+}
+.act{
+    border: 1px solid #dd0034;
+}
+.small{
+    opacity: 0.5;
+}
+.dis{
+    opacity: 0;
+}
